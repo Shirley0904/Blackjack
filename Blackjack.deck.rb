@@ -16,5 +16,5 @@ def shuffle!
 end
 
 def draw
-  @cards.draw
+  @cards.shift #.shift pulls the first "card" out of the "deck" (we can't use .draw until it's defined here)
 end
