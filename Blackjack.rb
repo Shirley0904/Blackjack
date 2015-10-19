@@ -1,6 +1,6 @@
-require_relative> card
+require_relative 'Blackjack.deck' #requires the deck file so it can pull info from there
 
-class game
+class Game #I don't remember _exactly_ what Chris said about it, but I think it's just best/common practice to name new classes with a capitalized name
 
 attr_accessor :dealer :player
 
